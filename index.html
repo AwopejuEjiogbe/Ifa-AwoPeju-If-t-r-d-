@@ -2,76 +2,96 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Índice Devocional Òrìṣà</title>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      background-color: #f6f1eb;
-      color: #2f2f2f;
-      padding: 2rem;
-    }
-    h1 {
-      text-align: center;
-      color: #4a2c14;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-    .card {
-      background: white;
-      padding: 1rem;
-      border: 1px solid #c4a484;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .card a {
-      text-decoration: none;
-      color: #8b3e00;
-    }
-    .simbolo {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Devocional Ifá Awopeju Ifátáràdá</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #222;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #4B0082;
+        }
+        .redes a, .contacto a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4B0082;
+        }
+        form {
+            margin-top: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: 100%%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #4B0082;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Devocionario Òrìṣà e Ifá</h1>
-  <div class="grid">
+<header>
+    <h1>Devocional Ifá Awopeju Ifátáràdá</h1>
+    <p>Honrando a Èṣù, Ògún, Òṣóòsì, Olódùmarè, Òrúnmìlà e Ifá</p>
+</header>
 
-    <div class="card">
-      <div class="simbolo">🔥</div>
-      <a href="esu.html"><strong>Èṣù</strong></a>
+<section>
+    <h2>Redes Sociales</h2>
+    <div class="redes">
+        <a href="https://www.facebook.com/share/16h2zj7Ey9/" target="_blank">Facebook 1</a>
+        <a href="https://www.facebook.com/share/1ZmU4t7wRy/" target="_blank">Facebook 2</a>
+        <a href="https://www.instagram.com/babalawo_ejiogbe_ifa_awopeju" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@awo.ejiogbe.ifa.awopejun" target="_blank">TikTok</a>
     </div>
-    
-    <div class="card">
-      <div class="simbolo">⚒️</div>
-      <a href="ogun.html"><strong>Ògún</strong></a>
+</section>
+
+<section>
+    <h2>Contáctame</h2>
+    <div class="contacto">
+        <p>Email: <a href="mailto:Babalawo.ifa.awopeju@hotmail.com">Babalawo.ifa.awopeju@hotmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/34674971677" target="_blank">+34 674 971 677</a></p>
     </div>
-    
-    <div class="card">
-      <div class="simbolo">🏹</div>
-      <a href="ososi.html"><strong>Òṣóòsì</strong></a>
-    </div>
-    
-    <div class="card">
-      <div class="simbolo">☀️</div>
-      <a href="olodumare.html"><strong>Olódùmarè</strong></a>
-    </div>
-    
-    <div class="card">
-      <div class="simbolo">📜</div>
-      <a href="orunmila.html"><strong>Òrúnmìlà</strong></a>
-    </div>
-    
-    <div class="card">
-      <div class="simbolo">🔮</div>
-      <a href="ifa.html"><strong>Ifá</strong></a>
-    </div>
-    
-  </div>
+</section>
+
+<section>
+    <h2>Formulario de Contacto</h2>
+    <form action="mailto:Babalawo.ifa.awopeju@hotmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Nombre" placeholder="Tu nombre" required>
+        <input type="email" name="Correo" placeholder="Tu correo electrónico" required>
+        <textarea name="Mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<section>
+    <h2>Galería de imágenes</h2>
+    <p>Coloca tus imágenes reales de orishas y rituales en las carpetas correspondientes.</p>
+    <ul>
+        <li><a href="imagenes/orishas/">Orishas</a></li>
+        <li><a href="imagenes/rituales/">Rituales</a></li>
+        <li><a href="imagenes/textiles/">Textiles</a></li>
+        <li><a href="imagenes/ceremonias/">Ceremonias</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 Ifá Awopeju Ifátáràdá - Todos los derechos reservados</p>
+</footer>
 </body>
 </html>
